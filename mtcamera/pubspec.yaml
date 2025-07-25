@@ -1,0 +1,55 @@
+name: mtcamera
+description: FaceBeauty SDK flutter端 示例项目.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+
+
+  cupertino_icons: ^1.0.2
+  get: ^4.6.6
+  mt_plugin:
+    path: ../mt_plugin
+  permission_handler: ^12.0.1
+  path_provider: ^2.1.5
+  cached_network_image: ^3.0.0
+  dio: ^5.4.1
+  shared_preferences: ^2.0.6
+  fluttertoast: ^8.0.8
+  agora_rtc_engine: 6.5.2
+#  intl_utils: ^2.4.0
+dependency_overrides:
+  win32: ^5.14.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - mt_icon/banner1.png #Banner 图 1
+    - mt_icon/banner2.png #Banner 图 2
+    - mt_icon/banner3.png #Banner 图 3
+#    - mt_icon/banner4.png #Banner 图 4
+    - mt_icon/bg_main.png
+    - mt_icon/bg_main_home.png # 主页背景
+    - mt_icon/icon_home_cute.png # 主页贴纸按钮
+    - mt_icon/icon_home_face_trim.png #主页美型按钮
+    - mt_icon/icon_home_filter.png # 主页滤镜按钮
+    - mt_icon/icon_home_quick_beauty.png # 主页一键美美颜按钮
+    - mt_icon/icon_btn_take_photo.png # 主页拍照按钮
+flutter_intl:
+  enabled: true
+

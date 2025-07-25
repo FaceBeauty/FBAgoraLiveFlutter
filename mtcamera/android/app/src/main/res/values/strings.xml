@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FaceBeauty Camera</string>
+    <string name="take_photo">拍照</string>
+    <string name="img_edit">图片编辑</string>
+    <string name="img_edit_beauty">人像美颜</string>
+    <string name="img_edit_face">敬请期待</string>
+    <string name="check_internet">请检查网络是否通畅</string>
+</resources>
