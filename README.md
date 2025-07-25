@@ -22,7 +22,7 @@ https://github.com/FaceBeauty/FBAgoraLiveFlutter
 
 #### Flutter插件集成步骤:
 
-1. 下载虹图SDK包
+1. 下载FaceBeautySDK包
 
    - Android：
 
@@ -33,7 +33,7 @@ https://github.com/FaceBeauty/FBAgoraLiveFlutter
 
      将FaceBeauty.framwork文件放到`mt_plugin/ios/Vendored`文件夹下。
 
-2. 联系虹图商务获取证书文件和资源包。
+2. 联系FaceBeauty商务获取证书文件和资源包。
 
 3. 将资源包中的文件放到对应的文件夹下
 
@@ -66,7 +66,7 @@ https://github.com/FaceBeauty/FBAgoraLiveFlutter
 
    - iOS：
 
-     打开`mcamera/ios/Runner/IOSFlutterView.m`文件，将`<YOUR_APP_ID>`替换成你的App ID。App ID需要联系虹图商务获取
+     打开`mcamera/ios/Runner/IOSFlutterView.m`文件，将`<YOUR_APP_ID>`替换成你的App ID。App ID需要联系FaceBeauty商务获取
 
      ```
      [[FaceBeauty shareInstance] initFaceBeauty:@"<YOUR_APP_ID>" withDelegate:self];

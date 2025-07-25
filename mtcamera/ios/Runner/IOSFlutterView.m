@@ -115,13 +115,7 @@ static dispatch_once_t token;
 
 
 
-- (BOOL)isNetworkAvailable {
-    SCNetworkReachabilityRef reachability = SCNetworkReachabilityCreateWithName(NULL, "effect.texeljoy.com");
-    SCNetworkReachabilityFlags flags;
-    BOOL gotFlags = SCNetworkReachabilityGetFlags(reachability, &flags);
-    CFRelease(reachability);
-    return gotFlags && (flags & kSCNetworkReachabilityFlagsReachable);
-}
+
 
 - (void)setUI{
     
