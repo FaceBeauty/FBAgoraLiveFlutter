@@ -9,7 +9,7 @@
 GitHub Repository
 
 ```apl
-
+https://github.com/FaceBeauty/FBLiveFlutter
 ```
 
 #### Flutter Plugin (Agora)
@@ -17,7 +17,7 @@ GitHub Repository
 GitHub Repository
 
 ```
-
+https://github.com/FaceBeauty/FBAgoraLiveFlutter
 ```
 
 #### Steps for Integrating the Flutter Plugin:

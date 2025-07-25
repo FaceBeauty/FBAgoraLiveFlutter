@@ -9,7 +9,7 @@
 GitHub仓库
 
 ```apl
-
+https://github.com/FaceBeauty/FBLiveFlutter
 ```
 
 #### Flutter插件(声网)
@@ -17,7 +17,7 @@ GitHub仓库
 GitHub仓库
 
 ```
-
+https://github.com/FaceBeauty/FBAgoraLiveFlutter
 ```
 
 #### Flutter插件集成步骤:
