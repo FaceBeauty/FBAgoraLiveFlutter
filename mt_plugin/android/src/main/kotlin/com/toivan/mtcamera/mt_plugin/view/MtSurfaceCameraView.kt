@@ -161,7 +161,7 @@ class MtSurfaceCameraView(mContext: Context) : AutoFitGlSurfaceView(mContext), G
             isRenderInit = FBEffect.shareInstance().initTextureOESRenderer(imageWidth, imageHeight, mtRotation, isFrontCamera, 5);
 
         }
-        android.util.Log.d(TAG, "onDrawFrame: "+imageWidth+"×"+imageHeight)
+//        android.util.Log.d(TAG, "onDrawFrame: "+imageWidth+"×"+imageHeight)
         textureId = FBEffect.shareInstance().processTextureOES(oesTextureId)
 
         previewRenderer?.render(textureId)

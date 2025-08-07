@@ -18,6 +18,7 @@ class StickersLogic extends GetxController {
 
     if (sticker.value.downloaded == 0) {
       //下载贴纸
+
       sticker.update((item) {
         item?.isDownloading = true;
       });

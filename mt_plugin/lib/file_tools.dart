@@ -87,9 +87,9 @@ class FileTools {
         Directory("${PATH_BASE}/Toivan/greenscreen").createSync();
       }
 
-      PATH_STICKER = "${PATH_BASE}/FBEffect/sticker/fb_sticker_config.json";
+      PATH_STICKER = "${PATH_BASE}/FaceBeauty/sticker/fb_sticker_config.json";
       PATH_EXPRESSION = "${PATH_BASE}/Toivan/expression/expression.json";
-      PATH_MASK = "${PATH_BASE}/FBEffect/mask/fb_mask_config.json";
+      PATH_MASK = "${PATH_BASE}/FaceBeauty/mask/fb_mask_config.json";
       PATH_GIFT = "${PATH_BASE}/FBEffect/gift/fb_gift_config.json";
       PATH_WATERMARK = "${PATH_BASE}/FBEffect/watermark/fb_watermark_config.json";
       PATH_ATMOSPHERE = "${PATH_BASE}/Toivan/atmosphere/atmosphere.json";

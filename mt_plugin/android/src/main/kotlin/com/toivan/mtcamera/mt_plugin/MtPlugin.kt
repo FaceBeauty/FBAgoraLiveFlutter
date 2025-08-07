@@ -90,7 +90,7 @@ class MtPlugin : FlutterPlugin, MethodCallHandler {
                 val key: String = call.argument("key") ?: return
                 applicationContext.let {
 
-                    //todo ---facebeauty--- 初始化SDK
+                    //todo fb ---facebeauty--- 初始化SDK
                     FBEffect.shareInstance().initFaceBeauty(it, "YOUR_APP_ID", object : FBEffect.InitCallback {
                         override fun onInitSuccess() = Unit
                         override fun onInitFailure() = Unit

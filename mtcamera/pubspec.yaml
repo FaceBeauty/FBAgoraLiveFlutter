@@ -6,7 +6,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: ">=3.5.0 <4.0.0"
+  sdk: '>=2.12.0 <3.0.0'
 
 dependencies:
   flutter:
@@ -17,19 +17,17 @@ dependencies:
 
 
   cupertino_icons: ^1.0.2
-  get: ^4.6.6
+  get: ^4.6.5
   mt_plugin:
     path: ../mt_plugin
-  permission_handler: ^12.0.1
-  path_provider: ^2.1.5
+  permission_handler: ^11.0.1
+  path_provider: ^2.0.2
   cached_network_image: ^3.0.0
   dio: ^5.4.1
   shared_preferences: ^2.0.6
   fluttertoast: ^8.0.8
   agora_rtc_engine: 6.5.2
 #  intl_utils: ^2.4.0
-dependency_overrides:
-  win32: ^5.14.0
 
 dev_dependencies:
   flutter_test:

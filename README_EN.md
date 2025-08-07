@@ -27,7 +27,7 @@ https://github.com/FaceBeauty/FBAgoraLiveFlutter
    - Android：
 
 
-   	Place the `FaceBeauty.aar` file in the `mt_plugin/android/libs` folder and the `mtcamera/android/app/libs` folder respectively. Place the `jniLibs` folder under the `/mt_plugin/android/src/main` folder.
+   	Place the `FaceBeauty.aar` file in the `mt_plugin/android/libs` folder and the `mtcamera/android/app/libs` folder respectively.
 
    - iOS：
 

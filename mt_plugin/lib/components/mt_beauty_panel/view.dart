@@ -4,6 +4,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:get/get.dart';
 import 'package:mt_plugin/components/mt_beauty_panel/state.dart';
+
 import 'logic.dart';
 import 'panel/mt_beauty_panel.dart';
 
@@ -29,8 +30,6 @@ class MtBeautyPanelContainer extends GetView {
         return Text("暂时不支持该设备，敬请期待");
       }
     }
-
-
 
     return Scaffold(
       body: Container(

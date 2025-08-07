@@ -1,11 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:mt_plugin/components/mt_beauty_panel/view.dart';
+
 import '../controllers/camera_controller.dart';
 import 'dart:ui' as ui;
 import 'package:agora_rtc_engine/agora_rtc_engine.dart';
 
+///相机View
 class CameraView extends GetView<CameraController> {
+
   @override
   Widget build(BuildContext context) {
     print('CameraView controller: $controller');
@@ -34,7 +37,6 @@ class CameraView extends GetView<CameraController> {
           //     ),
           //   );
           // }),
-          // 右上角远端视频视图
           // 右上角远端视频视图
           Obx(() {
             if (controller.remoteUid.isEmpty) return SizedBox.shrink();
@@ -100,8 +102,8 @@ class CameraView extends GetView<CameraController> {
       ),
     );
   }
-}
 
+}
 class _ImagePainter extends CustomPainter {
   final ui.Image image;
   _ImagePainter(this.image);

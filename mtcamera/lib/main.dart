@@ -13,7 +13,7 @@ void main() {
   // debugPaintSizeEnabled = true;
   runApp(
     GetMaterialApp(
-      title: "App",
+      title: "FaceBeauty",
       theme: ThemeData.light(),
       localizationsDelegates: const [
         S2.S.delegate,

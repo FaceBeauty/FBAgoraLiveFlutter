@@ -1,12 +1,17 @@
 import UIKit
 import Flutter
-import AgoraRtcKit
+
 @main
 @objc class AppDelegate: FlutterAppDelegate {
     
     override func application(
         _ application: UIApplication,didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey:Any]?) -> Bool {
-            GeneratedPluginRegistrant.register(with: self)
+        GeneratedPluginRegistrant.register(with: self)
+        
+//        let factory = PlatformTextViewFactory()
+//        
+//        let registrar = self.registrar(forPlugin: "mt_plugin")
+//        registrar?.register(factory, withId: "CameraView")
             
             let registrar = self.registrar(forPlugin: "mt_plugin")
             let factory = PlatformTextViewFactory(messenger: registrar!.messenger())
@@ -41,9 +46,8 @@ import AgoraRtcKit
                 }
             }
             
-            return super.application(application, didFinishLaunchingWithOptions: launchOptions)
-        }
+        
+        return super.application(application, didFinishLaunchingWithOptions: launchOptions)
+    }
     
 }
-
-

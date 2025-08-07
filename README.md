@@ -27,7 +27,7 @@ https://github.com/FaceBeauty/FBAgoraLiveFlutter
    - Android：
 
 
-   ​	将FaceBeauty.arr文件分别放到`mt_plugin/android/libs`文件夹下和`mtcamera/android/app/libs`文件夹下。将jinLibs文件夹放到`/mt_plugin/android/src/main`文件夹下面。
+   ​	将FaceBeauty.arr文件分别放到`mt_plugin/android/libs`文件夹下和`mtcamera/android/app/libs`文件夹下。
 
    - iOS：
 
